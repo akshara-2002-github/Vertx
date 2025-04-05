@@ -1,6 +1,9 @@
 import React from 'react';
+import "tailwindcss";
 
-const Header = () => {
+
+
+const TopBar = () => {
 	return (
 		<div class="flex flex-row h-[50px] bg-black text-white border-b border-[#1D1D1D]">
 			{/* Logo Section */}
@@ -28,4 +31,4 @@ const Header = () => {
 	);
 };
 
-export default Header;
+export default TopBar;

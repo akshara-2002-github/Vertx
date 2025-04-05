@@ -11,7 +11,8 @@ import DashBoard from './pages/Dashboard/index.jsx';
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <TopBar />
+    <TopBar/>
+    
     <div class="flex flex-row">
       <SideBar />
       <DashBoard/>
