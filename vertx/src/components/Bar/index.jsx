@@ -13,7 +13,7 @@ const Bar = () => {
            
             <div class="  w-[115px] h-[49.56px] border-l border-b border-[#1D1D1D] border-solid text-center pt-[10px]">More</div>
         </div>
-    
+
     </div>
   )
 }
