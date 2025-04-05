@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Bar = () => {
+const NavigationBar = () => {
   return (
     <div class="relative flex flex-row justify-between w-[1035px] h-[49.56px]  border-b border-[#1D1D1D] border-solid text-white ">
         <div class="flex flex row ">
@@ -18,7 +18,7 @@ const Bar = () => {
   )
 }
 
-export default Bar
+export default NavigationBar
 
 
 

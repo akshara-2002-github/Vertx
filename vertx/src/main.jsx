@@ -1,20 +1,21 @@
 import React, { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 
-import Header from './components/Header';
-import SideBar from './components/SideBar';
-import Dashboard from './components/Dashboard';
-import MainPage from './pages/MainPage';
 
-import './index.css';
+import SideBar from './components/SideBar/index.jsx';
 
-createRoot(document.getElementById('root')).render(
-	<StrictMode>
-		<Header />
-		<div class="flex">
-			<SideBar />
-			<Dashboard />
-			<MainPage />
-		</div>
-	</StrictMode>
+
+import TopBar from "./components/TopBar/index.jsx";
+import DashBoard from './pages/Dashboard/index.jsx';
+
+
+createRoot(document.getElementById("root")).render(
+  <StrictMode>
+    <TopBar/>
+    
+    <div class="flex flex-row">
+      <SideBar />
+      <DashBoard/>
+    </div>
+  </StrictMode>
 );
