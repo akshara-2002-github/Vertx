@@ -1,6 +1,6 @@
 import React from "react";
 
-const Dashboard = () => {
+const SideBarExtension = () => {
   return (
     <div class="flex relative  w-[190px] h-[782px] bg-black  border-r border-[#1D1D1D] border-solid text-white">
 
@@ -17,4 +17,4 @@ const Dashboard = () => {
   );
 };
 
-export default Dashboard;
+export default SideBarExtension ;

@@ -1,6 +1,6 @@
 import React from "react";
 
-const Header = () => {
+const TopBar = () => {
   return (
     <div class="flex flex-row w-[1280px] h-[50px] bg-black text-white">
       <div class="relative w-[50px] h-[50px] border-b border-[#1D1D1D]">
@@ -29,7 +29,7 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default TopBar;
 
 // <div class="flex  justify-between items-center  w-[920px] h-[50px]  border-b border-[#1D1D1D] border-solid">
 

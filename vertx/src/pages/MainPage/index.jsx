@@ -7,7 +7,7 @@ const MainPage = () => {
       <Bar />
 
       <div class="relative flex flex-col">
-        <div class=" absolute-[901px] h-[648px] top-[133px] left-[297px] border border-dashed border-[#1D1D1D] flex justify-center"></div>
+        <div class=" absolute-[901px] h-[648px] top-[133px] left-[297px] flex justify-center"></div>
       </div>
     </div>
   );
