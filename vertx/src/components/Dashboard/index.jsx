@@ -3,8 +3,6 @@ import React from "react";
 const Dashboard = () => {
   return (
     <div class="flex relative  w-[190px] h-[782px] bg-black  border-r border-[#1D1D1D] border-solid text-white">
-
-   
     <div class="flex flex-col absolute  gap-[30px] top-[20px] left-[20px] ">
       <div>Dashboard</div>
       <div>Analytics</div>
