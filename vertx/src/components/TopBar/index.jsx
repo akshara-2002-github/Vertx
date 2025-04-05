@@ -1,11 +1,8 @@
 import React from 'react';
-import "tailwindcss";
-
-
 
 const TopBar = () => {
 	return (
-		<div class="flex flex-row h-[50px] bg-black text-white border-b border-[#1D1D1D]">
+		<div class="flex flex-row h-[50px] bg-black text-white border-b border-[#1D1D1D] sticky top-[0px] left-0">
 			{/* Logo Section */}
 			<div class="w-[50px] h-[50px] flex items-center justify-center border-b border-[#1D1D1D]">
 				<div class="bg-white w-[30px] h-[30px] rounded-full"></div>
