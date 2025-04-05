@@ -215,7 +215,7 @@ const LineChart = () => {
 	);
 
 	return (
-		<div class="p-4 px-6 bg-black rounded-lg border-2 border-[#1d1d1d] w-full">
+		<div class="p-4 px-6 bg-black rounded-lg border-1 border-[#1d1d1d] w-full">
 			<div class="flex items-center mb-4">
 				<div class="flex flex-direction-col items-center">
 					{['Visitors', 'Last 30 days'].map((item, index) => (

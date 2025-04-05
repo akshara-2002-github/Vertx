@@ -15,7 +15,7 @@ const GeoMapDashboard = () => {
 	];
 
 	return (
-		<div class="bg-black p-4 px-6 rounded-lg border-2 border-[#1D1D1D] relative">
+		<div class="bg-black p-4 px-6 rounded-lg border-1 border-[#1D1D1D] relative">
 			<h1 class="text-2xl font-500 text-white">Demographics</h1>
 			<div class="w-full h-[400px] ">
 				<ResponsiveChoropleth
