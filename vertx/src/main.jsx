@@ -1,10 +1,10 @@
 import React, { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 
-import Header from './components/Header/index.jsx';
-import SideBar from './components/SideBar/index.jsx';
-import Dashboard from './components/Dashboard/index.jsx';
-import MainPage from './pages/MainPage/index.jsx';
+import Header from './components/Header';
+import SideBar from './components/SideBar';
+import Dashboard from './components/Dashboard';
+import MainPage from './pages/MainPage';
 
 import './index.css';
 
