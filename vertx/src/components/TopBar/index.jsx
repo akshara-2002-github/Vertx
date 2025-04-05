@@ -19,7 +19,7 @@ const Header = () => {
 			{['Analytics', 'Activity', 'Logout'].map((item, index) => (
 				<div
 					key={item}
-					className={`flex ${index === 0 ? 'mr-[auto]' : ''} items-center justify-center text-center text-[16px] leading-none w-[120px] h-[50px] border-l border-b border-[#1D1D1D] border-solid`}
+					class={`flex ${index === 0 ? 'mr-[auto]' : ''} items-center justify-center text-center text-[16px] leading-none w-[120px] h-[50px] border-l border-b border-[#1D1D1D] border-solid`}
 				>
 					{item}
 				</div>
