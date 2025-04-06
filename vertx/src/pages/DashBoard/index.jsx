@@ -16,10 +16,10 @@ const DashBoard = () => {
 						Overview
 					</p>
 					<div class="flex flex-row w-full h-full mb-4">
-						<div class="flex-1">
+						<div class="w-[calc(100%-480px)]">
 							<LineChart />
 						</div>
-						<div class="flex flex-col w-[30%] ml-5 bg-black border-[#080808] border-solid rounded-[7px] text-white px-9 py-8 ">
+						<div class="flex flex-col w-[480px] ml-5 bg-black border-[#080808] border-solid rounded-[7px] text-white px-9 py-8 ">
 							<h1 class="text-[22px] mb-[20px] ">Insights</h1>
 							<h2 class="text-[18px]">Founders</h2>
 							<div class="flex flex-row">
